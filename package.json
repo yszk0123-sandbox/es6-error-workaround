@@ -1,0 +1,19 @@
+{
+  "name": "es6-error-workaround",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "npm-run-all clean build test:run",
+    "test:run": "./test.sh"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^8.10.20",
+    "es6-error": "^4.1.1"
+  }
+}

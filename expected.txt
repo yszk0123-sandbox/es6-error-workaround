@@ -1,0 +1,4 @@
+main -> try
+foo -> try
+foo -> catch
+Trace: CustomErrorA a
